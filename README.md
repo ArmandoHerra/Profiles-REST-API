@@ -1,4 +1,8 @@
-# Important notes about this repository.
+# Minimal reproduction instructions.
 
-## Still in active development.
-## Wikis and guides for using it are missing.
+- `git clone git@github.com:ArmandoHerra/Profiles-REST-API.git`
+- `cd Profiles-REST-API/`
+- `vagrant up && vagrant ssh`
+- `cd /vagrant/`
+- `source ~/env/bin/activate`
+- `python manage.py runserver 0.0.0.0:8000`
